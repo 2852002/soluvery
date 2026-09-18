@@ -1,0 +1,16 @@
+{
+  "name": "drive-hygiene-advisor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Drive Hygiene Advisor - a Google Workspace Add-on (Apps Script/CardService) that surfaces duplicate candidates, storage-heavy files, and risky sharing on a user's My Drive.",
+  "scripts": {
+    "test": "node --test tests/**/*.test.js",
+    "push": "clasp push",
+    "open": "clasp open-script",
+    "login": "clasp login",
+    "deploy": "clasp deploy"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2"
+  }
+}
